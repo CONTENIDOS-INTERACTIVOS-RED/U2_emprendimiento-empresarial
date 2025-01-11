@@ -1,1 +1,1 @@
-module.exports = 'Unidad 1. Emprendimiento social'
+module.exports = 'Unidad 2. El espíritu emprendedor'

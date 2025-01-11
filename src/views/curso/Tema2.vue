@@ -1,302 +1,286 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Emprendimiento, motivación y liderazgo'")
+  BannerInterno(:subTitulo="'2. El pensamiento y comportamiento emprendedor'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5.mx-0
-      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-right")
-        p.mb-0(data-aos="fade-up") La motivación es un elemento fundamental en el emprendimiento, actuando como el motor que impulsa a los emprendedores a transformar sus ideas en proyectos viables y sostenibles. Además de ser un estímulo inicial, la motivación es clave para mantener la resiliencia y la determinación ante los desafíos. Comprender cómo opera la motivación permite desarrollar un enfoque más sólido hacia las metas personales y profesionales.
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
 
-    p.text-bold.mb-4 Tipos de motivación en el emprendimiento
-    p.mb-4 La motivación en el emprendimiento puede clasificarse en intrínseca y extrínseca, ambas desempeñando un papel crucial en el impulso de los emprendedores.
-
-    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width.mb-4
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-5
-              figure
-                img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold.mb-4 Intrínseca
-              p Proviene del deseo interno de realizar actividades por placer, propósito o satisfacción personal. <br>Un emprendedor motivado por resolver un problema social o innovar en su campo de interés.
-
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-5
-              figure
-                img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold.mb-4 Extrínseca
-              p Se basa en incentivos externos, como ganancias económicas, prestigio o independencia financiera. <br>Un emprendedor que busca reconocimiento o libertad económica a través de su negocio.
-
-
-    p.mb-4 Estudios como los de Deci y Ryan (1985) destacan que la motivación intrínseca tiende a ser más sostenible, ya que conecta profundamente con los valores y objetivos del emprendedor.
-    h2 Factores que influyen en la motivación
-    p.mb-4 El éxito del emprendimiento depende de factores personales y contextuales que influyen en la motivación y estrategia del emprendedor.
-    .row.mb-4
-      .col-10.col-md-8.col-lg-6.mb-4.mx-auto(data-aos="fade-right")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-          div.mb-4.px-4
-            p.text-bold.text-center Personales
-            p.text-small.px-4.mb-1 <b>Metas y valores:</b> objetivos claros alineados con valores personales.
-            p.text-small.px-4.mb-1 <b>Pasión:</b> interés genuino por el sector o problema abordado.
-            p.text-small.px-4.mb-1 <b>Experiencias previas:</b> aprendizajes que moldean la visión y la estrategia del emprendedor.
-      .col-10.col-md-8.col-lg-6.mb-4.mx-auto(data-aos="fade-left")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-          div.mb-4.px-4
-            p.text-bold.text-center Contextuales
-            p.text-small.px-4.mb-1 <b>Entorno social:</b> apoyo familiar, redes de contactos y comunidades emprendedoras.
-            p.text-small.px-4.mb-1 <b>Económico:</b> acceso a recursos como financiamiento y mercados potenciales.
-            p.text-small.px-4.mb-1 <b>Cultural:</b> valoración de la innovación y el emprendimiento en la sociedad.
-            p.text-small.px-4.mb-1 <b>Políticas públicas:</b> incentivos fiscales y programas de formación.
-
-    h2 Teoría de las necesidades de Maslow (1943)
-    p.mb-4  Esta teoría establece una jerarquía de necesidades, desde las básicas (seguridad económica) hasta las superiores (autorrealización). En el emprendimiento, la autorrealización se refleja en el deseo de crear algo significativo, generar impacto o alcanzar el éxito personal y profesional.
-    .row.mb-4 
-      .col-6.col-md-4.mb-4.mx-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Necesidades básicas:
-          span.text-small Seguridad económica, estabilidad financiera.
-      .col-6.col-md-4.mb-4.mx-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Necesidades de seguridad:
-
-          span.text-small Establecer un negocio rentable y sostenible
-      .col-6.col-md-4.mb-4.mx-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Necesidades sociales:
-
-          span.text-small Construir redes de apoyo y colaborar con comunidades.
-      .col-6.col-md-4.mb-4.ms-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Necesidades de estima:
-
-          span.text-small Lograr reconocimiento y respetabilidad en el sector 
-      .col-6.col-md-4.mb-4.me-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Autorrealización :
-
-          span.text-small Crear proyectos innovadores y generar impacto en la sociedad. 
-
-    p.mb-4 La motivación está intrínsecamente conectada con el liderazgo, ya que un emprendedor no solo debe mantenerse motivado, sino también inspirar y dirigir a su equipo. Un líder motivado fomenta un ambiente de colaboración, creatividad y compromiso, potenciando las capacidades individuales y colectivas. Así, el liderazgo transformacional, que combina visión estratégica con empatía y propósito, se convierte en una herramienta clave para maximizar el impacto del emprendimiento.
-    p.mb-3 <b>Figura 1.</b> Pirámide de Maslow
-    .row.mb-4
-      .col-10.mx-auto(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
-
-    .row.mb-4
-      .col-12.col-xl-7(data-aos="fade-right")
-        p.text-bold.mb-4 Teoría de la autodeterminación y su relevancia en el emprendimiento
-        p.mb-4 La teoría de la autodeterminación de Deci y Ryan (1985) proporciona una base sólida para comprender cómo la motivación intrínseca impulsa a los emprendedores en su camino. Esta teoría identifica tres necesidades psicológicas fundamentales que favorecen la motivación intrínseca:
-        .bg-amarillo.p-4
-          p <b>Autonomía:</b> sentir que tienes control sobre tus decisiones y acciones.
-          p <b>Competencia:</b> percibir que cuentas con las habilidades y recursos necesarios para alcanzar tus objetivos.
-          p <b>Conexión social:</b> establecer relaciones significativas y recibir apoyo del entorno.
-      .col-5.d-none.d-xl-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
-
-    p.mb-5 Cuando estas necesidades están satisfechas, los emprendedores experimentan un mayor nivel de compromiso y resiliencia, factores esenciales para perseverar frente a los retos del emprendimiento.
-
-    .bg-fondo-2.bg-full-width
-      .px-5.pb-md-3.py-4
-        
-        p.text-bold.mb-4 La motivación en las etapas del emprendimiento
-        p.mb-4 La motivación desempeña un papel crucial en todas las fases del emprendimiento:
-
-        .row.mb-4.justify-content-center 
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-42.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Inicio
-              p.px-1.text-small.mb-0.d-flex.text-center Superar el miedo al fracaso, tomar decisiones iniciales y dar el primer paso hacia la realización del proyecto. 
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-43.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Desarrollo y crecimiento
-              p.px-1.text-small.mb-0.d-flex.text-center Mantener el compromiso frente a desafíos como la competencia, la falta de recursos o los cambios del mercado.
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-44.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Consolidación
-              p.px-1.text-small.mb-0.d-flex.text-center Continuar innovando, identificar nuevas oportunidades y asegurar la sostenibilidad del proyecto.
-
-    p.mb-4 Las estrategias para cultivar la motivación en el emprendimiento son:
-
-    ImagenInfografica.color-secundario.mb-4
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-white.p-4(x="31%" y="55%" numero="+")
-        .h5.mb-2 Reflexiona sobre tus metas personales
-        p Identifica qué te impulsa a emprender y conecta emocionalmente con tu proyecto.
-      .tarjeta.bg-white.p-4(x="37%" y="33%" numero="+")
-        .h5.mb-2 Rodéate de apoyo
-        p Trabaja con personas que compartan tus valores y te brinden respaldo emocional y profesional.
-
-      .tarjeta.bg-white.p-4(x="50%" y="33%" numero="+")
-        .h5.mb-2 Celebra logros
-        p Reconoce y disfruta cada avance, por pequeño que sea, para renovar energía y mantener una actitud positiva.
-      .tarjeta.bg-white.p-4(x="63.5%" y="33%" numero="+")
-        .h5.mb-2 Establece metas claras y alcanzables
-        p - A corto plazo: Identifica objetivos inmediatos que permitan medir el progreso. <br>- A largo plazo: Proyecta metas que representen tu visión de éxito.
-      .tarjeta.bg-white.p-4(x="70%" y="55%" numero="+")
-        .h5.mb-2 Desarrolla resiliencia
-        p Adopta una mentalidad de aprendizaje para transformar los fracasos en oportunidades de crecimiento.
-
-
-    p.mb-4 La motivación está directamente vinculada con el éxito en el emprendimiento. Los emprendedores motivados destacan por su persistencia, creatividad y enfoque estratégico en la toma de decisiones. Además, la motivación intrínseca actúa como un catalizador que no solo impulsa al emprendedor, sino que también inspira a socios, empleados e inversionistas a comprometerse con el proyecto.
+    .row.mb-4.mx-0
+      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+        img.h-100(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8.d-flex.align-items-center.bg-rojo.p-4(data-aos="fade-left")
+        p.mb-0(data-aos="fade-up")  El pensamiento emprendedor es un enfoque integral que combina creatividad, innovación y pragmatismo para interpretar y actuar frente a la realidad de manera dinámica y proactiva. Este tipo de pensamiento va más allá de la generación de ideas, incorporando habilidades para evaluar su viabilidad, planificar estratégicamente y convertir esas ideas en proyectos concretos que generen valor. Adoptar este pensamiento permite identificar oportunidades en escenarios que otros podrían considerar como limitantes, posicionándolo como un agente de cambio dentro de su entorno. 
 
     #t_2_1.titulo-segundo
       div.d-flex
         span.me-3 2.1  
-        h2 Liderazgo en el emprendimiento
+        h2 Creatividad e innovación
 
-    p.mb-4 El liderazgo en el emprendimiento es una competencia fundamental para transformar ideas en realidades sostenibles. En un entorno empresarial lleno de incertidumbre, este liderazgo combina habilidades estratégicas, tácticas e interpersonales para guiar a un equipo hacia el logro de objetivos comunes. No se limita al manejo operativo, sino que incluye la formulación de una visión clara y la adaptación constante a los cambios del entorno.
-    p.text-bold.mb-4 Las características clave del liderazgo emprendedor son:
+    p.mb-4 La creatividad e innovación son pilares fundamentales en el emprendimiento, ya que impulsan la capacidad de transformar ideas originales en soluciones prácticas, adaptadas a un entorno competitivo y en constante evolución. Aunque estrechamente relacionadas, estas competencias tienen características únicas que las hacen indispensables para desarrollar proyectos emprendedores exitosos.
 
-    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width.mb-4
+    TabsC.mb-4
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Creatividad", :iconUrl="require('@/assets/curso/unidad/img-34.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-xl-5(data-aos="fade-right")
+            figure
+              img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
+          .col-md-12.col-xl-7.mb-4.mb-md-0(data-aos="fade-left")
+            h4 Creatividad
+            p(data-aos="fade-up") Es una habilidad cognitiva que permite concebir ideas nuevas, inusuales y valiosas a través de la observación, conexión de conceptos y exploración de posibilidades. Está influida por conocimientos previos, experiencias personales y perspectivas diversas. <br>Ejemplo: Un emprendedor creativo identifica una necesidad insatisfecha y propone una idea abstracta con potencial de solución práctica.
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Innovación", :iconUrl="require('@/assets/curso/unidad/img-34.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-xl-5(data-aos="fade-right")
+            figure
+              img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
+          .col-md-12.col-xl-7.mb-4.mb-md-0(data-aos="fade-left")
+            h4 Innovación
+            p(data-aos="fade-up") Es el proceso que transforma ideas creativas en realidades concretas que generan valor. Implica planificación, diseño, implementación y comercialización, donde la creatividad se convierte en un motor de cambio tangible. <br>Ejemplo: Una persona creativa idea un dispositivo para monitorear la salud, y la innovación lo desarrolla tecnológicamente, produce y comercializa.
+
+
+    p.text-bold.mb-4 Relación simbiótica entre creatividad e innovación
+    p.mb-4 La relación entre creatividad e innovación es simbiótica. La creatividad alimenta las ideas, mientras que la innovación las materializa. Una idea creativa sin innovación carece de impacto práctico, y un proceso innovador sin creatividad puede dar lugar a soluciones poco originales. Ambas competencias son esenciales para el éxito emprendedor y deben integrarse en cualquier proyecto.
+    .row.mb-5
+      .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')  
+      .col-12.col-xl-8.d-flex.flex-column
+        .d-flex.align-items-start.bg-verde-claro.p-4(data-aos="fade-left")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-38.svg', alt='Texto que describa la imagen')
+          .d-flex.flex-column
+            p.pe-xl-3.mb-0(data-aos="fade-up") En un mercado saturado, la creatividad e innovación permiten a los emprendedores destacar. Productos o servicios innovadores no solo satisfacen necesidades, sino que también pueden redefinir industrias. Por ejemplo, empresas como Apple y Tesla han revolucionado sus sectores al combinar estas habilidades, estableciendo nuevos estándares en tecnología y movilidad.
+
+    p.text-bold.mb-4 Desarrollando la creatividad
+    p.mb-4 Fomentar la creatividad implica cultivar un entorno que valore la experimentación y la curiosidad. Esto se puede lograr mediante:
+
+    ImagenInfografica.color-secundario.mb-4
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+
+      .tarjeta.bg-amarillo.p-4(x="20%" y="20%" numero="+")
+        .h5.mb-2 Exposición a diversidad de ideas
+        p Explorar diferentes disciplinas, culturas y experiencias para ampliar el horizonte creativo.
+      .tarjeta.bg-rojo.p-4(x="20%" y="20%" numero="+")
+        .h5.mb-2 Herramientas creativas
+        p Utilizar técnicas como lluvia de ideas, mapas mentales y pensamiento lateral para encontrar soluciones no convencionales.
+      .tarjeta.bg-azul.p-4(x="20%" y="20%" numero="+")
+        .h5.mb-2 Entornos colaborativos
+        p Trabajar con equipos diversos para enriquecer el proceso creativo con múltiples perspectivas.
+
+    p.text-bold.mb-4 Fomentando la innovación
+    p.mb-4 La innovación requiere adoptar una mentalidad orientada al cambio y la mejora continua. Entre las estrategias clave se incluyen:
+
+    .row.mb-4
+      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-right")
+        .bg-amarillo-3.p-4.mb-0.text-center
+          p.text-bold.mb-0 Compresión del mercado
+        .bg-amarillo-3-claro.p-4.text-center.h-100
+          span.text-center Identificar necesidades y oportunidades a través de análisis detallados.
+      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-up")
+        .bg-amarillo-3.p-4.mb-0.text-center
+          p.text-bold.mb-0 Iteración constante
+        .bg-amarillo-3-claro.p-4.text-center.h-100
+          span.text-center Ajustar y mejorar continuamente los productos o servicios.
+      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-left")
+        .bg-amarillo-3.p-4.mb-0.text-center
+          p.text-bold.mb-0 Colaboración estratégica
+        .bg-amarillo-3-claro.p-4.text-center.h-100
+          span.text-center Involucrar a socios, clientes e inversionistas para validar y perfeccionar ideas.
+
+    p.text-bold.mb-4 Colaboración y diversidad
+    p.mb-4 Tanto la creatividad como la innovación se benefician enormemente de la colaboración. La inclusión de diversas perspectivas, conocimientos y experiencias en equipos de trabajo fortalece el proceso creativo y mejora la efectividad de las soluciones innovadoras. Además, la retroalimentación de múltiples actores permite desarrollar proyectos más sólidos y adaptados a las necesidades reales del mercado.
+
+    .row.mb-4
+      .col-12.col-xl-8(data-aos="fade-right")
+        .bg-azul.p-4.mb-4
+          span En un mundo caracterizado por cambios rápidos y avances tecnológicos, la creatividad y la innovación son más relevantes que nunca. Estas competencias no solo ayudan a los emprendedores a adaptarse a un entorno dinámico, sino que también los posicionan como líderes capaces de anticiparse a tendencias y generar impacto positivo en la sociedad.
+        span La creatividad y la innovación son los pilares del emprendimiento, donde la creatividad imagina lo posible y la innovación lo convierte en realidad. Estas habilidades, aplicadas estratégicamente, potencian las posibilidades de éxito al generar valor y transformar realidades. Cultivar ambas competencias es esencial para cualquier emprendedor que busque destacarse y generar impacto en un mercado competitivo y en constante evolución.
+      .d-none.d-xl-block.col-xl-4(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+
+
+    .row.mb-4
+      .col-12.col-md-10.col-lg-8.mx-auto(data-aos="fade-up")
+
+        .rounded.shadow.p-3.py-lg-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/componentes/link-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-3 Creatividad e innovación
+                  p.text-small Si desea conocer más sobre creatividad e innovación, se recomienda consultar el siguiente recurso:
+                .col-sm-auto
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/login_usuario/?next=/es/lc/tecnologicadeloriente/titulos/41300/" target="_blank")
+                    span.text-small Ir al sitio
+                    i.fas.fa-arrow-right
+        
+    #t_2_2.titulo-segundo
+      div.d-flex
+        span.me-3 2.2  
+        h2 Toma de decisiones y gestión del riesgo
+
+
+    p.mb-4 La toma de decisiones y la gestión del riesgo constituyen elementos centrales en el comportamiento emprendedor. Estas competencias no solo permiten transformar ideas en proyectos viables, sino que también ayudan a enfrentar un entorno lleno de incertidumbre. Al desarrollarlas, puedes evaluar estratégicamente las oportunidades y minimizar los impactos adversos asociados a los riesgos inherentes al emprendimiento.
+    .row.position-relative.mb-4.py-4.bg-fondo-1.bg-full-width
       div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Visión inspiradora
-              p - Define el propósito del proyecto y actúa como referencia para decisiones estratégicas.
-              p - Inspira confianza y compromiso en el equipo, socios e inversionistas.
-              p - Debe ser ambiciosa, alcanzable y capaz de evolucionar con el tiempo.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Toma de decisiones bajo presión
-              p - Requiere equilibrio entre análisis riguroso e intuición. 
-              p - Considera riesgos, beneficios e implicaciones a largo plazo.
-              p - Debe ser ágil y adaptable en mercados dinámicos.
+  
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Capacidad de innovación 
-              p - Fomenta ideas creativas y explora nuevas oportunidades.
-              p - Integra la innovación en la estrategia general del proyecto.
-              p - Asigna recursos adecuados y elimina barreras para la creatividad.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Resiliencia
-              p - Permite enfrentar adversidades y aprender de fracasos.
-              p - Fomenta un ambiente de trabajo adaptable y motivado.
-              p - Crea una cultura organizacional de aprendizaje continuo.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Inteligencia emocional
-              p - Gestiona emociones propias y comprende las de los demás.
-              p - Construye relaciones sólidas basadas en empatía y confianza.
-              p - Facilita la colaboración en equipos diversos.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Gestión de redes externas
-              p - Establece relaciones con clientes, proveedores, inversionistas y socios clave.
-              p - Facilita el acceso a recursos y retroalimentación.
-              p - Requiere habilidades de negociación y persuasión.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+    p.mb-4 Por ejemplo, al lanzar un nuevo producto, un emprendedor puede realizar pruebas piloto para recopilar retroalimentación inicial, reducir la incertidumbre y ajustar estrategias antes del lanzamiento masivo. 
 
-    p.text-bold.mb-4 Roles del liderazgo en las etapas del emprendimiento
-    p.mb-4 El liderazgo en el emprendimiento abarca roles clave que guían el desarrollo del proyecto a lo largo de sus etapas.
-
-    .row.mb-4.justify-content-center 
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-52.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Fase inicial
-          p.px-1.text-small.mb-0.d-flex.text-center Conceptualiza el proyecto y define la visión. Forma un equipo sólido y busca recursos estratégicos.  
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-53.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Etapa de desarrollo
-          p.px-1.text-small.mb-0.d-flex.text-center Implementa estrategias y supervisa operativamente. Cumple objetivos a corto y mediano plazo.
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-54.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Fase de consolidación
-          p.px-1.text-small.mb-0.d-flex.text-center Garantiza la sostenibilidad del proyecto. Promueve la innovación y se adapta a nuevas demandas del mercado,
-
-    p.text-bold.mb-4 Estilos de liderazgo en el emprendimiento
-    p.mb-4 En el emprendimiento, los estilos de liderazgo juegan un papel fundamental en la dirección y éxito de los proyectos.
-
-    .row.mb-4 
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Transformacional
-          span.text-small Inspira a los equipos y fomenta la creatividad
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Adaptativo
-          span.text-small Ajusta estrategias rapidamente en mercados cambiantes
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Democrático
-          span.text-small Fomenta la participación activa en la toma de decisiones.
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Orientados a resultados
-          span.text-small Enfocado en metas claras y su cumplimiento.
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Carismático
-          span.text-small Motiva mediante la comunicación y la personalidad del líder.
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Autocrático (moderado)
-          span.text-small Útil en situaciones de alta presión que requieren decisiones rápidas.
-
-    .bg-rojo-claro.bg-full-width.mb-5
-      .px-5.pb-md-3.py-4
+    .row.mb-4
+      .col-4.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-8(data-aos="fade-left")
         .row.mb-4
           .d-flex.align-items-center
-            div.d-flex.align-items-center
-              img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-55.svg', alt='Texto que describa la imagen')
-              .d-flex.flex-column
-                p.text-bold.mb-2 Importancia del liderazgo emprendedor
-                p.mb-0 El liderazgo en el emprendimiento es multifacético y esencial para enfrentar desafíos, aprovechar oportunidades y generar impacto positivo en el mercado y la sociedad. Combina visión estratégica, innovación, resiliencia, inteligencia emocional y habilidades de gestión. Este tipo de liderazgo no solo asegura el éxito del proyecto, sino que también contribuye al progreso económico y social, consolidando empresas sostenibles en un entorno globalizado y competitivo.
+            div.d-flex.align-items-center.bg-verde-claro.px-3.py-4
+              img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-42.svg', alt='Texto que describa la imagen')
+              p.pe-xl-5.mb-0  En un entorno empresarial dinámico, la capacidad de adaptarse rápidamente a los cambios es esencial. Avances tecnológicos, crisis económicas o cambios regulatorios pueden alterar las condiciones del mercado de manera inesperada. La flexibilidad y resiliencia permiten ajustar las estrategias y mantener la viabilidad del proyecto.
 
-    .bg-full-width.border-top-9-azul
+    p.mb-4 La toma de decisiones y la gestión del riesgo también tienen un importante componente emocional. Los emprendedores enfrentan presión constante y deben mantener la calma, tomar decisiones racionales y comunicar efectivamente con sus equipos. La inteligencia emocional es fundamental para manejar el estrés y fomentar un entorno de trabajo positivo.
+
+    .row.mb-4
+      .col-12.col-xl-8(data-aos="fade-right")
+        .bg-rojo.p-4
+          span La toma de decisiones y la gestión del riesgo son competencias esenciales en el emprendimiento. Al desarrollar habilidades analíticas, estratégicas y emocionales, puedes convertirte en un líder resiliente y visionario. Estas competencias no solo te permiten superar desafíos, sino también identificar oportunidades que impulsen tu proyecto hacia el éxito, generando impacto positivo tanto en el mercado como en la sociedad.
+      .d-none.d-xl-block.col-xl-4(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
+    
+    .row.mb-4
+      .col-12.col-md-10.col-lg-8.mx-auto(data-aos="fade-up")
+
+        .rounded.shadow.p-3.py-lg-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/componentes/link-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-3 Gestión de riesgos 
+                  p.text-small Si desea conocer más sobre la gestión de riesgos como herramienta estrat égica de gestión empresarial, se recomienda consultar el siguiente recurso:
+                .col-sm-auto
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/131885" target="_blank")
+                    span.text-small Ir al sitio
+                    i.fas.fa-arrow-right
+        
+    #t_2_3.titulo-segundo
+      div.d-flex
+        span.me-3 2.3  
+        h2 Resiliencia y adaptabilidad
+
+    p.mb-4 La resiliencia y la adaptabilidad son habilidades clave para el éxito en el emprendimiento, especialmente en entornos dinámicos y desafiantes. Estas competencias permiten superar obstáculos, aprender de ellos y ajustarse de manera ágil a los cambios del entorno.
+    h2 Resiliencia: enfrentar adversidades
+    p.mb-4 La resiliencia implica recuperarse de fracasos y mantener la motivación ante dificultades. Ayuda a:
+
+    .row.mb-4
+      .col-4.ms-auto.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
+      .col-10.col-lg-8.mx-auto.ms-lg-0.me-lg-auto(data-aos="fade-left")
+        .bg-gris.p-4.px-lg-5.h-100.d-flex.flex-column.justify-content-center
+          .d-flex.flex-column
+            div.d-flex.mb-2
+              p.mb-0.me-2 •
+              p.mb-0 Aprender de errores para mejorar estrategias.
+            div.d-flex.mb-2
+              p.mb-0.me-2 •
+              p.mb-0 Manejar el estrés con enfoque y calma.
+            div.d-flex.mb-2
+              p.mb-0.me-2 •
+              p.mb-0 Mantener una mentalidad positiva para avanzar.
+    h2 Adaptabilidad: ajustarse al cambio
+    p.mb-4 La adaptabilidad permite ajustarse a nuevos escenarios y aprovechar oportunidades. Esto incluye: 
+    .row.mb-4
+      .col-10.col-lg-8.mx-auto.ms-lg-0.me-lg-auto(data-aos="fade-right")
+        .bg-gris.p-4.px-lg-5.h-100.d-flex.flex-column.justify-content-center
+          .d-flex.flex-column
+            div.d-flex.mb-2
+              p.mb-0.me-2 •
+              p.mb-0 Anticipar y responder con agilidad a cambios del mercado.
+            div.d-flex.mb-2
+              p.mb-0.me-2 •
+              p.mb-0 Rediseñar estrategias o productos según las demandas.
+            div.d-flex.mb-2
+              p.mb-0.me-2 •
+              p.mb-0 Innovar y encontrar soluciones en un entorno incierto.
+      .col-4.ms-auto.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+    
+    p.text-bold.mb-4 Conexión entre resiliencia y adaptabilidad
+    p.mb-4 Ambas competencias se complementan: la resiliencia aporta fortaleza emocional, mientras la adaptabilidad facilita respuestas prácticas. Juntas, te preparan para liderar proyectos sostenibles y convertir desafíos en oportunidades.
+    p.mb-4 Desarrollo de estas competencias como: 
+    .row.mb-4
+      .col-8.col-md-6.col-lg-4.mx-auto(data-aos="fade-up")
+        .bg-verde.p-4
+          p.text-center.mb-0 Practica la autorreflexión y busca apoyo en redes de mentores.
+      .col-8.col-md-6.col-lg-4.mx-auto(data-aos="fade-up")
+        .bg-verde.p-4
+          p.text-center.mb-0 Mantente informado sobre tendencias y fomenta una mentalidad abierta.
+      .col-8.col-md-6.col-lg-4.mx-auto(data-aos="fade-up")
+        .bg-verde.p-4
+          p.text-center.mb-0 Colabora con equipos diversos para enriquecer soluciones.
+    p.mb-5 La resiliencia y adaptabilidad lo posicionan como un líder preparado para superar desafíos, innovar y mantener la relevancia en mercados cambiantes. Cultivarlas asegura la sostenibilidad de sus proyectos y su desarrollo profesional.
+
+    .row.mb-5
+      .col-12.col-md-10.col-lg-8.mx-auto(data-aos="fade-up")
+
+        .rounded.shadow.p-3.py-lg-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/componentes/link-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-3 Resiliencia organizacional
+                  p.text-small Si desea conocer más sobre resiliencia organizacional, se recomienda consultar el siguiente recurso:
+                .col-sm-auto
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/218827" target="_blank")
+                    span.text-small Ir al sitio
+                    i.fas.fa-arrow-right
+
+    .row.bg-rojo.bg-full-width.py-4.mb-5
+      div.px-5.pb-md-3.py-4.d-flex
+        .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
+          h2.mb-4.pb-2.me-auto Casos exitosos de emprendimiento
+          p.mb-5 En el documento se destacan casos emblemáticos de éxito empresarial en Colombia que combinan innovación, sostenibilidad y estrategias de impacto social. Ejemplos como Rappi, Crepes & Waffles, TOTTO y Vélez ilustran cómo estas empresas lograron trascender sus mercados locales, transformándose en referentes internacionales.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>
+             
+        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul.mb-5
       .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51702") Palmero Cantero, F., et al. (2016). Manual de teorías emocionales y motivacionales. Universitat Jaume I.
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/225511") Godoy Villalobos, A. (2021). Las 22 leyes inmutables del emprendimiento. RIL editores.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/222463") Valencia Tovar, Á. (2015). El liderazgo, clave del éxito en la empresa. CESA.
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/94010") Ponti, F. (2009). La empresa creativa: metodologías para el desarrollo de la innovación. Ediciones Granica.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75247") Barber Kuri, C. M. & Díaz Becerril, C. F. (2014). Casos empresariales. Tomo I. Editorial Miguel Ángel Porrúa.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=eFbmc65F47s") Emprendimiento y Motivación. (2022). Los mejores pasos para ser un EMPRENDEDOR [Vídeo]
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=gXNiVSvWf2U") Mariacanovirtual. (2024). Creatividad, innovación y emprendimiento [Vídeo]
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=_rPJ_eZzlcw") pascualbravovirtual. (2021). Liderazgo y trabajo en equipo [Vídeo]
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=xOklu29CVzA") Ministerio TIC Colombia. (2018). Bienestapp, emprendimiento colombiano [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+    .bg-full-width.border-top.actividad.bg-color-4
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 </template>
 
@@ -307,6 +291,155 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Emprendimiento y Desarrollo Empresarial',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué herramienta estratégica ayuda a evaluar riesgos en emprendimientos?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Matrices de riesgo', esCorrecta: true },
+            { id: 'b', texto: 'Mapas mentales', esCorrecta: false },
+            { id: 'c', texto: 'Técnicas de brainstorming', esCorrecta: false },
+            { id: 'd', texto: 'Modelos de trabajo rígidos', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué objetivo tiene la Ley 2069 respecto a las pequeñas empresas?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Establecer impuestos más altos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Promover su crecimiento mediante incentivos',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituirlas por grandes empresas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Restringir su acceso a tecnología',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué rol juega la economía naranja en el desarrollo emprendedor?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Promover la creatividad y la innovación como motores de crecimiento',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir sectores tradicionales',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la diversidad cultural',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Enfocarse exclusivamente en productos digitales',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué elemento es clave para garantizar la equidad de género en el ámbito empresarial?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Exclusión de hombres en roles de liderazgo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Implementación de políticas inclusivas y educativas',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducción de oportunidades laborales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitación de programas de mentoría',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué característica distingue a los emprendimientos apoyados por incubadoras?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Están diseñados para operar sin redes de apoyo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reciben mentorías y recursos para acelerar su desarrollo',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Operan únicamente en mercados locales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dependen exclusivamente de sus propias inversiones',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

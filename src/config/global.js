@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Emprendimiento social',
+    numeroUnidad: '2',
+    tituloUnidad: 'El espíritu emprendedor',
   },
   menuPrincipal: {
     menu: [
@@ -31,19 +31,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Aspectos Normativos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Emprendedor',
+            titulo: 'Ley 2069 de 2020: Ley de Emprendimiento',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Empresa',
+            titulo: 'Ley 2234 de 2022: Política de Emprendimiento Social',
             hash: 't_1_2',
           },
         ],
@@ -52,41 +52,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'El pensamiento y comportamiento emprendedor',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Liderazgo en el emprendimiento',
+            titulo: 'Creatividad e innovación',
             hash: 't_2_1',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Unidad',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Enfoque ambiental',
-            hash: 't_3_1',
+            numero: '2.2',
+            titulo: 'Toma de decisiones y gestión del riesgo',
+            hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Enfoque sociológico',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Enfoque psicológico',
-            hash: 't_3_3',
+            numero: '2.3',
+            titulo: 'Resiliencia y adaptabilidad',
+            hash: 't_2_3',
           },
         ],
       },
@@ -128,50 +113,110 @@ export default {
   referencias: [
     {
       referencia:
-        'Ballvé, A. M. & Fontana, A. (2021). El propósito de la empresa: hacia un liderazgo directivo centrado en el bien común. LID Editorial Empresarial.',
-      link: 'Elibro.net',
+        'Congreso de Colombia (2006, 26 enero). Ley 1014 de fomento a la cultura del emprendimiento.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1014_2006.html',
     },
     {
       referencia:
-        'Bolivar Palechor. (2019, 22 enero). Por qué PENSAR en grande | Mentalidad | Liderazgo | Emprendimiento | Motivación [Vídeo]. YouTube.',
-      link: 'https://www.youtube.com/watch?v=l606Ff3YRX0',
+        'Congreso de Colombia (2009, 23 enero). Ley 1286. Por la cual se modifica la Ley 29 de 1990, se transforma a Colciencias en Departamento Administrativo.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=34850',
     },
     {
       referencia:
-        'Gomez, M. (2024). Pirámide de Maslow: qué es, ejemplos y cómo usarla.',
-      link: 'https://blog.hubspot.es/marketing/piramide-maslow-marketing',
+        'Congreso de Colombia (2018, 27 julio). Ley 1931. Por la cual se establecen directrices para la gestión del cambio climático.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=87765',
     },
     {
       referencia:
-        'Herruzo-Gómez, E., Hernández-Sánchez, B. R., & Cardella, G. M. (2019). Emprendimiento e innovación: oportunidades para todos. Dykinson.',
-      link: 'Elibro.net',
+        'Congreso de Colombia (2019, 18 julio). Ley 1972. Por medio de la cual se establece la protección de los derechos a la salud y al medio ambiente sano.',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/06/ley-1972-2019.pdf',
     },
     {
       referencia:
-        'Il Sung Park, S., & Duarte Masi, S. (2015). El perfil del emprendedor y los estudios relacionados a los emprendedores Iberoamericanos. Revista Internacional de Investigación en Ciencias Sociales, 11(2), 291-314.',
-      link: 'https://doi.org/10.18004/riics.2015.diciembre.291-314',
+        'Congreso de Colombia (2019, 27 diciembre). Ley 2210. Por medio de la cual se adoptan normas para la promoción del crecimiento económico.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=159687',
     },
     {
       referencia:
-        'Negocios En Tu Mundo. (2020, 19 febrero). Emprendimiento y salud mental - [Negocios en Tm]® [Vídeo]. YouTube.',
-      link: 'https://www.youtube.com/watch?v=svnc2qzRJAA',
+        'Congreso de Colombia (2020, 31 diciembre). Ley 2069 Por medio del cual se impulsa el emprendimiento en Colombia.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=160966',
     },
     {
       referencia:
-        'Salcedo Camacho, P. D. (2021). Programa emprendedor. Universidad Privada del Valle.',
-      link: 'Elibro.net',
+        'Congreso de Colombia (2022, 08 julio). Ley 2234 Por la cual se promueve la política de emprendimiento social.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=160966',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación (2020, 30 noviembre). Documento CONPES. Política Nacional de Emprendimiento.',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4011.pdf',
+    },
+    {
+      referencia:
+        'Deulofeu Aymar, J. (2016). Emprendiendo la excelencia en el retail: caso Farret: empresa sostenible. Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115603',
+    },
+    {
+      referencia:
+        'Galván, L. (2015). Creatividad para el cambio: innovación para la vida y la empresa. Universidad Peruana de Ciencias Aplicadas (UPC).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/41300',
+    },
+    {
+      referencia:
+        'Guilera, L. & Garrell, A. (2021). Productos y servicios inteligentes y sostenibles: técnicas para la innovación y la creatividad. Marge Books.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/172965',
+    },
+    {
+      referencia:
+        'Presidente de la República (2019, 05 junio). Decreto 957. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=94550',
+    },
+    {
+      referencia:
+        'Presidente de la República (2020, 22 diciembre). Decreto 1733. Por el cual se reglamenta la Ley 2024 de 2020.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=154026',
+    },
+    {
+      referencia:
+        'Sánchez López, S. B. (Comp.) & Zuluaga Trujillo, J. (Comp.). (2022). Industrias creativas: innovación y emprendimiento de mujeres en América Latina (1 ed.). Universidad de los Andes.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/218342',
+    },
+    {
+      referencia:
+        'Tamayo Saborit, M. & Gonzalez Capote, D. (2020). La gestión de riesgos: herramienta estratégica de gestión empresarial. Editorial Universo Sur.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/131885',
+    },
+    {
+      referencia:
+        'Véliz Montero, F. (2021). Resiliencia organizacional (2 ed.). Editorial Gedisa.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/218827',
     },
   ],
   glosario: [
     {
       termino: 'Adaptabilidad',
       significado:
-        'Habilidad de ajustar estrategias y acciones frente a cambios en el entorno o condiciones imprevistas.',
+        'Capacidad de ajustar estrategias y acciones frente a cambios en el entorno o condiciones imprevistas.',
     },
     {
-      termino: 'Capital Social',
+      termino: 'Capital social',
       significado:
         'Recursos accesibles a través de redes de relaciones personales o profesionales, fundamentales para emprender.',
+    },
+    {
+      termino: 'Competitividad',
+      significado:
+        'Capacidad de una empresa o individuo para destacar y mantenerse relevante en un mercado dinámico y exigente.',
     },
     {
       termino: 'Creatividad',
@@ -179,32 +224,22 @@ export default {
         'Capacidad de generar ideas novedosas y originales para resolver problemas o aprovechar oportunidades.',
     },
     {
-      termino: 'Ecosistema Emprendedor',
+      termino: 'Cultura organizacional',
+      significado:
+        'Conjunto de valores, normas y prácticas compartidas que definen el comportamiento dentro de una organización.',
+    },
+    {
+      termino: 'Ecosistema emprendedor',
       significado:
         'Conjunto de actores, instituciones y recursos que facilitan o dificultan la actividad empresarial en un contexto específico.',
     },
     {
-      termino: 'Emprendedor',
+      termino: 'Innovación tecnológica',
       significado:
-        'Persona que identifica oportunidades, asume riesgos y lidera proyectos que transforman ideas en realidades.',
+        'Uso de avances tecnológicos para desarrollar productos, procesos o servicios que generen valor significativo.',
     },
     {
-      termino: 'Emprendimiento',
-      significado:
-        'Proceso de identificar, desarrollar y ejecutar ideas innovadoras que generan valor económico, social o ambiental.',
-    },
-    {
-      termino: 'Empresa',
-      significado:
-        'Organización que coordina recursos para producir bienes o servicios y satisfacer necesidades del mercado.',
-    },
-    {
-      termino: 'Innovación',
-      significado:
-        'Implementación de ideas, productos o procesos nuevos que aportan valor significativo al mercado o la sociedad.',
-    },
-    {
-      termino: 'Inteligencia Emocional',
+      termino: 'Inteligencia emocional',
       significado:
         'Capacidad para gestionar emociones propias y comprender las de los demás, favoreciendo relaciones interpersonales efectivas.',
     },
@@ -219,7 +254,7 @@ export default {
         'Habilidad de influir, motivar y guiar a otros hacia el logro de objetivos comunes.',
     },
     {
-      termino: 'Modelo de Negocio',
+      termino: 'Modelo de negocio',
       significado:
         'Estrategia que define cómo una empresa crea, entrega y captura valor en su mercado.',
     },
@@ -239,19 +274,14 @@ export default {
         'Capacidad de superar adversidades, aprender de ellas y seguir adelante con mayor fortaleza.',
     },
     {
-      termino: 'Responsabilidad Social Corporativa',
-      significado:
-        'Prácticas empresariales que buscan un impacto positivo en la sociedad y el medio ambiente.',
-    },
-    {
-      termino: 'Sostenibilidad',
-      significado:
-        'Desarrollo que satisface las necesidades actuales sin comprometer las capacidades de las futuras generaciones.',
-    },
-    {
-      termino: 'Toma de Riesgos',
+      termino: 'Toma de riesgos',
       significado:
         'Disposición para asumir decisiones con incertidumbre calculada, con el objetivo de generar valor.',
+    },
+    {
+      termino: 'Transformación social',
+      significado:
+        'Impacto positivo generado por iniciativas que abordan problemas estructurales mediante estrategias sostenibles e inclusivas.',
     },
     {
       termino: 'Visión',

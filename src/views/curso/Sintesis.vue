@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 Esta unidad se enfoca en los fundamentos del emprendimiento, estableciendo una base sólida para comprender su influencia en el desarrollo personal, profesional y social. Aborda las definiciones clave de emprendimiento, emprendedor y empresa, facilitando la identificación y estructuración de iniciativas capaces de transformar ideas innovadoras en proyectos viables y sostenibles. 
+    p.mb-4.mb-md-5 Esta unidad se enfoca en el espíritu emprendedor como un elemento central para la creación de valor y el desarrollo empresarial. Se analizan los aspectos normativos que apoyan y fomentan la cultura del emprendimiento en Colombia.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

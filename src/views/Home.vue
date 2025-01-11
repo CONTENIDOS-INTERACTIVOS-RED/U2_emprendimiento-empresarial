@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El emprendimiento es un fenómeno dinámico que combina creatividad, innovación y estrategia para identificar oportunidades y generar soluciones sostenibles, impactando positivamente en lo económico, social y ambiental. Se distingue por su conexión con la innovación, adaptación al riesgo, generación de valor y transformación cultural. Existen diversos tipos, como el tradicional, social, tecnológico e intraemprendimiento, cada uno enfrentando retos específicos. El emprendedor, figura central, lidera con resiliencia, pensamiento estratégico y motivación, mientras que la empresa coordina recursos para cumplir objetivos y contribuir al desarrollo sostenible. Además, el emprendimiento se analiza desde enfoques ambiental, sociológico y psicológico, destacando la importancia del entorno, las relaciones sociales y las características individuales.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold “El verdadero emprendedor no teme al fracaso, sino que lo convierte en el trampolín hacia el éxito.”
+              p.descripcion.mb-4 Los aspectos normativos en Colombia son clave para fomentar el emprendimiento y generar impacto social. Las leyes 1014 de 2006, 2069 de 2020 y 2234 de 2022 constituyen el marco legal que impulsa la cultura emprendedora, reduce barreras burocráticas y apoya proyectos con impacto social y ambiental. La Ley 1014 fortalece el espíritu emprendedor desde la educación. La Ley 2069 simplifica trámites y fomenta la formalización empresarial. La Ley 2234 promueve el emprendimiento social con incentivos fiscales y redes de apoyo, transformando comunidades vulnerables y contribuyendo al desarrollo sostenible del país.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
