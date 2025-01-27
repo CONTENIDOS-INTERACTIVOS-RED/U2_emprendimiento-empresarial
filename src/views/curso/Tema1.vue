@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Definiciones de emprendimiento, emprendedor y empresa'")
+  BannerInterno(:subTitulo="'1. Aspectos Normativos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
     .row.mb-4
@@ -301,7 +301,7 @@
         .col-12.col-md-5.d-flex.mb-3.mb-md-0
           h2.my-auto ONG y empresas privadas 
         .col-12.col-md-5
-          span Espacio para mentoras y cooperación técnica.
+          span Espacio para mentorías y cooperación técnica.
     .bg-gris.p-4.mb-3(data-aos="fade-up")
       .row
         .col-auto.d-flex.mx-auto.mb-3.mb-md-0
@@ -390,7 +390,7 @@
                   p.text-bold.mb-3 Ley 2234 de 2022 
                   p.text-small Si desea conocer más sobre la Ley 2234 de 2022, se recomienda consultar el siguiente recurso:
                 .col-sm-auto
-                  a.download-btn.boton.bg-azul-2.text-white(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=160966" target="_blank")
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=189388" target="_blank")
                     span.text-small Ir al sitio
                     i.fas.fa-arrow-right
 
@@ -399,7 +399,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Otras normativas 
           p.mb-5 En el documento se expone un panorama detallado sobre las normativas complementarias relacionadas con el emprendimiento en Colombia, que van más allá de las leyes principales como la Ley 1014 de 2006, la Ley 2069 de 2020 y la Ley 2234 de 2022.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Otras normativas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Normativas complementarias.
              

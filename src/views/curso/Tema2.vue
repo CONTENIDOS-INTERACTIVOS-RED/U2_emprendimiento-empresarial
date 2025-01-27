@@ -56,13 +56,13 @@
         figure
           img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
 
-      .tarjeta.bg-amarillo.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-amarillo.p-4(x="31%" y="20%" numero="+")
         .h5.mb-2 Exposición a diversidad de ideas
         p Explorar diferentes disciplinas, culturas y experiencias para ampliar el horizonte creativo.
-      .tarjeta.bg-rojo.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-rojo.p-4(x="55%" y="20%" numero="+")
         .h5.mb-2 Herramientas creativas
         p Utilizar técnicas como lluvia de ideas, mapas mentales y pensamiento lateral para encontrar soluciones no convencionales.
-      .tarjeta.bg-azul.p-4(x="20%" y="20%" numero="+")
+      .tarjeta.bg-azul.p-4(x="79%" y="20%" numero="+")
         .h5.mb-2 Entornos colaborativos
         p Trabajar con equipos diversos para enriquecer el proceso creativo con múltiples perspectivas.
 
@@ -70,17 +70,17 @@
     p.mb-4 La innovación requiere adoptar una mentalidad orientada al cambio y la mejora continua. Entre las estrategias clave se incluyen:
 
     .row.mb-4
-      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-right")
+      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-right")
         .bg-amarillo-3.p-4.mb-0.text-center
           p.text-bold.mb-0 Compresión del mercado
         .bg-amarillo-3-claro.p-4.text-center.h-100
           span.text-center Identificar necesidades y oportunidades a través de análisis detallados.
-      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-up")
+      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-up")
         .bg-amarillo-3.p-4.mb-0.text-center
           p.text-bold.mb-0 Iteración constante
         .bg-amarillo-3-claro.p-4.text-center.h-100
           span.text-center Ajustar y mejorar continuamente los productos o servicios.
-      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-left")
+      .col-8.col-md-6.col-xl-4.mx-auto.d-flex.flex-column.mb-4(data-aos="fade-left")
         .bg-amarillo-3.p-4.mb-0.text-center
           p.text-bold.mb-0 Colaboración estratégica
         .bg-amarillo-3-claro.p-4.text-center.h-100
@@ -127,7 +127,7 @@
   
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/QPZdu6Pb5_o" title="La toma de decisiones y gestión del riesgo en el emprendimiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     p.mb-4 Por ejemplo, al lanzar un nuevo producto, un emprendedor puede realizar pruebas piloto para recopilar retroalimentación inicial, reducir la incertidumbre y ajustar estrategias antes del lanzamiento masivo. 
 
@@ -161,7 +161,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.text-bold.mb-3 Gestión de riesgos 
-                  p.text-small Si desea conocer más sobre la gestión de riesgos como herramienta estrat égica de gestión empresarial, se recomienda consultar el siguiente recurso:
+                  p.text-small Si desea conocer más sobre la gestión de riesgos como herramienta estratégica de gestión empresarial, se recomienda consultar el siguiente recurso:
                 .col-sm-auto
                   a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/131885" target="_blank")
                     span.text-small Ir al sitio
@@ -246,9 +246,9 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Casos exitosos de emprendimiento
           p.mb-5 En el documento se destacan casos emblemáticos de éxito empresarial en Colombia que combinan innovación, sostenibilidad y estrategias de impacto social. Ejemplos como Rappi, Crepes & Waffles, TOTTO y Vélez ilustran cómo estas empresas lograron trascender sus mercados locales, transformándose en referentes internacionales.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Casos exitosos de emprendimiento.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Casos exitosos de emprendimiento
              
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
